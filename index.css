@@ -1,0 +1,45 @@
+
+
+
+h1 { 
+    font-size: 100px;
+    font-family: garamond;
+    color:black;
+    display:center;
+
+    
+}
+
+#game-board {
+background-color: bisque;
+width: 100vmin;
+height: 100vmin;
+display: grid;
+grid-template-rows: repeat(21, 1fr);
+grid-template-columns: repeat(21, 1fr);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:auto;
+    background-color: #e4a53a;
+
+
+}
+
+.snake {
+background-color: green;
+border: .25vmin solid black;
+}
+
+
+.food{ 
+    background-color: #ff9800;
+    border: .25vmin solid black;
+}
